@@ -1,0 +1,54 @@
+# CoveredLife
+
+> CoveredLife is an independent South African life insurance comparison service. We connect individuals and businesses with FSCA-authorised advisers (FSP 54871) who compare policies across South Africa's leading insurers, at no cost to the customer.
+
+CoveredLife does not underwrite or sell policies directly. Advisers are compensated by insurers, not by customers, only when cover is successfully arranged.
+
+## Personal Cover
+
+- [Life Insurance](https://coveredlife.co.za/get-life-insurance): Tax-free lump-sum life cover quotes.
+- [Compare Life Insurance](https://coveredlife.co.za/compare-life-insurance): Side-by-side comparison of South African life insurance policies.
+- [Life Insurance Quotes](https://coveredlife.co.za/life-insurance-quotes): Start a free, no-obligation quote.
+- [Life Insurance Cost](https://coveredlife.co.za/life-insurance-cost): What life insurance typically costs in South Africa.
+- [Income Protection](https://coveredlife.co.za/get-income-protection): Monthly income replacement if you can't work due to illness or injury.
+- [Individual Life Cover](https://coveredlife.co.za/individual-life-cover): Cover for a single applicant.
+- [Family Life Cover](https://coveredlife.co.za/family-life-cover): Cover designed around family needs.
+- [Over 50s Life Insurance](https://coveredlife.co.za/over-50s-life-insurance): Guaranteed-acceptance cover for people over 50.
+- [Over 60s Life Insurance](https://coveredlife.co.za/over-60s-life-insurance): Cover options for people over 60.
+- [Critical Illness Cover](https://coveredlife.co.za/get-critical-illness-cover): Lump-sum payout on diagnosis of a serious illness.
+
+## Cover for Pre-Existing Conditions
+
+- [Pre-Existing Conditions](https://coveredlife.co.za/pre-existing-conditions-life-insurance): Life cover options when you have a pre-existing condition.
+- [Previously Declined](https://coveredlife.co.za/previously-declined-life-insurance): Options if you've been declined cover before.
+- [Diabetes](https://coveredlife.co.za/diabetes-life-insurance)
+- [HIV](https://coveredlife.co.za/hiv-life-insurance)
+- [Hypertension](https://coveredlife.co.za/hypertension-life-insurance)
+- [Cancer](https://coveredlife.co.za/cancer-life-insurance)
+- [Heart Conditions](https://coveredlife.co.za/heart-conditions-life-insurance)
+- [High BMI / Obesity](https://coveredlife.co.za/high-bmi-obesity-life-insurance)
+- [Other Chronic Conditions](https://coveredlife.co.za/other-chronic-conditions-life-insurance)
+
+## Business Cover
+
+- [Key Person Insurance](https://coveredlife.co.za/get-key-person-insurance): Protects a business against the financial impact of losing a vital team member.
+- [Shareholder Protection](https://coveredlife.co.za/shareholder-protection-insurance): Cover to protect shareholders and business continuity.
+- [Business Life Insurance](https://coveredlife.co.za/business-life-insurance): Life cover for company directors and businesses.
+- [Executive Income Protection](https://coveredlife.co.za/get-executive-income-protection): Income protection for company directors, covering salary, bonuses and dividends.
+
+## Learn
+
+- [Guides](https://coveredlife.co.za/guides): Educational guides on life insurance in South Africa.
+- [FAQs](https://coveredlife.co.za/faqs): Answers to common questions about how CoveredLife works.
+- [Claims](https://coveredlife.co.za/claims): How the claims process works.
+- [Underwriting Explained](https://coveredlife.co.za/underwriting-explained): How insurers assess and price risk.
+
+## About
+
+- [About CoveredLife](https://coveredlife.co.za/about): Company background and mission.
+- [How It Works](https://coveredlife.co.za/how-it-works): The CoveredLife comparison process, step by step.
+- [Contact](https://coveredlife.co.za/contact): How to reach CoveredLife and its advisers.
+
+## Optional
+
+- [Get a Quote](https://coveredlife.co.za/quote): Start a free quote request.

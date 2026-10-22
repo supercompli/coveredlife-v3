@@ -1,0 +1,113 @@
+# CoveredLife
+
+> CoveredLife is an independent South African life insurance comparison service. We connect individuals and businesses with FSCA-authorised advisers who compare policies across South Africa's leading insurers, at no cost to the customer.
+
+## Company
+
+CoveredLife is a division of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871). CoveredLife.co.za is an independent website, not an insurer, created to help customers find the most suitable protection insurance policy. CoveredLife does not provide financial advice itself; it works with FSCA-regulated advisers who search and compare policies from leading South African insurers. Advisers are paid by insurers, only when they successfully arrange cover — the service is free to the customer.
+
+Since 2006, CoveredLife has helped over 412,682 businesses and individuals compare protection insurance from South Africa's leading insurers.
+
+Contact: WhatsApp +27 83 575 6352, Monday to Friday 9am–7pm.
+
+## How It Works
+
+1. Start your quote — speak with an FSCA-authorised adviser about your circumstances.
+2. Secure your policy — your adviser reviews the whole market to find suitable cover.
+3. Be confident — your policy is matched to your actual risk and needs.
+
+## Personal Cover
+
+- Life Insurance (/get-life-insurance): Compare life insurance policies from South Africa's leading insurers. Free, no-obligation quotes with advice from FSCA-authorised advisers. Provides a one-off tax-free lump-sum payment in the event of death during the fixed term of the policy.
+- Compare Life Insurance (/compare-life-insurance): Compare life insurance quotes from South Africa's leading FSCA-authorised insurers side-by-side, with no obligation to buy.
+- Life Insurance Quotes (/life-insurance-quotes): Get a personalised life insurance quote in minutes from FSCA-authorised advisers, with no obligation to buy.
+- Life Insurance Cost (/life-insurance-cost): What shapes the cost of life insurance in South Africa, and how to find affordable cover that suits your budget.
+- Income Protection (/get-income-protection): Compare Income Protection Insurance quotes and get monthly tax-free payments if illness or injury stops you from working.
+- Individual Life Cover (/individual-life-cover): Individual life cover policies sized to your own circumstances and budget, with a tax-free lump-sum payout.
+- Family Life Cover (/family-life-cover): Joint and family life cover policies that pay a tax-free lump sum to keep your family financially secure.
+- Over 50s Life Insurance (/over-50s-life-insurance): Guaranteed acceptance life insurance for South Africans aged 50-85, with no medical exam required.
+- Over 60s Life Insurance (/over-60s-life-insurance): Straightforward, guaranteed-acceptance life insurance designed for South Africans in their 60s, 70s and beyond.
+- Critical Illness Cover (/get-critical-illness-cover): Compare Critical Illness Cover policies. Pays a tax-free lump sum on diagnosis of a serious illness such as cancer, heart attack or stroke. No hidden fees.
+
+## Cover for Pre-Existing Conditions
+
+- Pre-Existing Conditions (/pre-existing-conditions-life-insurance): Specialist advisers who know which insurers accept pre-existing conditions like diabetes, heart disease, or past cancer.
+- Previously Declined (/previously-declined-life-insurance): Been declined for life insurance before? Every insurer assesses risk differently — CoveredLife helps you find a better fit.
+- Diabetes (/diabetes-life-insurance): Life insurance for people living with Type 1 or Type 2 diabetes, matched to insurers who understand the condition.
+- HIV (/hiv-life-insurance): Life insurance for people living with HIV, matched to insurers experienced in underwriting stable, well-managed HIV.
+- Hypertension (/hypertension-life-insurance): Life insurance for people with high blood pressure, matched to insurers who understand well-controlled hypertension.
+- Cancer (/cancer-life-insurance): Life insurance after a cancer diagnosis, matched to specialist insurers who consider individual outlook and history.
+- Heart Conditions (/heart-conditions-life-insurance): Life insurance after a heart condition diagnosis, matched to insurers experienced in assessing cardiac risk.
+- High BMI / Obesity (/high-bmi-obesity-life-insurance): Life insurance for people with a high BMI, matched to insurers who assess overall health, not just one number.
+- Other Chronic Conditions (/other-chronic-conditions-life-insurance): Life insurance for a wide range of chronic conditions, matched to insurers experienced in specific circumstances.
+
+## Business Cover
+
+- Key Person Insurance (/get-key-person-insurance): Life cover a business takes out on a key individual whose loss would cause significant financial strain — covers lost profits, loan repayment, and recruitment/training costs during transition.
+- Shareholder Protection (/shareholder-protection-insurance): Funds a share buyback if a business partner dies, keeping control with existing owners.
+- Business Life Insurance (/business-life-insurance): Protects key people, shareholders and directors, keeping the company financially resilient.
+- Executive Income Protection (/get-executive-income-protection): Income Protection policy a company takes out on a director, covering up to ~80% of salary and dividends, including variable compensation like bonuses and stock options. Premiums are usually paid by the company.
+
+## Learn
+
+- Guides (/guides): Guides to help you understand life insurance, compare policies, and choose the right cover with confidence.
+- FAQs (/faqs): Answers to common questions about how CoveredLife works, getting a quote, eligibility, and making a claim.
+- Claims (/claims): Step-by-step guide to making an insurance claim, what you'll need, and answers to common claims questions.
+- Underwriting Explained (/underwriting-explained): A plain-English guide to how life insurance underwriting works, and why full disclosure matters.
+
+## About
+
+- About CoveredLife (/about): Company background — independent comparison service, not an insurer, connecting customers with FSCA-authorised advisers since 2006.
+- How It Works (/how-it-works): The CoveredLife comparison process, step by step.
+- Contact (/contact): WhatsApp +27 83 575 6352, Monday to Friday 9am–7pm.
+
+## Frequently Asked Questions
+
+### About Our Service
+Q: Is CoveredLife an insurer?
+A: No, we're an independent comparison service. We connect you with FSCA-authorised advisers who compare policies across South Africa's leading insurers.
+
+Q: How do you make money?
+A: We don't charge you anything. Advisers we work with are paid by insurers only when they successfully arrange cover for you.
+
+Q: Is advice really free?
+A: Yes, completely. There is no charge to get a quote, speak to an adviser, or compare policies.
+
+### Getting a Quote
+Q: What information do I need?
+A: Typically your age, general health, occupation, and the type and amount of cover you need.
+
+Q: How long does it take?
+A: Most customers can get a comparable quote within a few minutes online or over the phone.
+
+Q: Does getting a quote affect my credit score?
+A: No, getting a life insurance quote does not involve a credit check.
+
+### Cover & Eligibility
+Q: Can I get cover with a health condition?
+A: In most cases, yes. Our advisers work with insurers who specialise in a wide range of pre-existing conditions.
+
+Q: What's the age range for cover?
+A: This varies by product, but many policies are available from 18 up to 85, including guaranteed acceptance options for older applicants.
+
+### Claims
+Q: How do I make a claim?
+A: Contact your adviser or insurer directly, who will guide you through the required documentation and next steps.
+
+Q: How long do payouts take?
+A: This varies by insurer and the complexity of the claim, but straightforward claims are often settled within a few weeks.
+
+### Critical Illness Cover
+Q: How much does it cost?
+A: Premiums are based on your age, health, and amount of cover. Your adviser will find the best value.
+
+Q: What illnesses are covered?
+A: Most policies cover cancer, heart attack, stroke, and MS. Definitions vary by insurer.
+
+Q: Can I add it to existing life insurance?
+A: Yes, many providers allow you to add critical illness as an additional benefit.
+
+## Optional
+
+- Get a Quote (/quote): Start a free quote request.
+- T&Cs apply. Benefits, eligibility, underwriting, limits, exclusions and cashback conditions are subject to the applicable policy terms and conditions.

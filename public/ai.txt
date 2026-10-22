@@ -1,0 +1,17 @@
+# ai.txt — AI usage policy for coveredlife.co.za
+# See /robots.txt for machine-readable crawl rules (including the
+# Content-Signal directive) and /llms.txt for a structured content summary.
+
+Site: https://coveredlife.co.za
+Contact: https://coveredlife.co.za/contact
+
+Permitted:
+- Indexing and summarising this site's content in AI-powered search and answer engines.
+- Citing and linking back to coveredlife.co.za when referencing our content.
+
+Not permitted:
+- Using this site's content to train foundation/base models without a separate agreement.
+- Reproducing FSCA-regulated financial advice content as your own without attribution.
+
+This file is informational and does not override /robots.txt. Crawlers should
+respect the Content-Signal directive and per-agent rules published there.

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "name": "CoveredLife",
+  "description": "Get an instant online life insurance quote in South Africa. CoveredLife helps you compare life cover options from leading insurers, including cover for chronic and pre-existing health conditions. Fast, simple and no obligation.",
+  "url": "https://coveredlife.co.za",
+  "capabilities": [
+    "quote",
+    "compare",
+    "search",
+    "contact"
+  ],
+  "contact": "https://coveredlife.co.za/contact"
+}

@@ -1,0 +1,51 @@
+import { NextResponse } from 'next/server';
+import { sendMail } from '@/lib/mailer';
+import { renderContactConfirmationEmail } from '@/lib/emails/contact-confirmation';
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export async function POST(request: Request) {
+  const body = await request.json().catch(() => null);
+
+  if (!body || typeof body !== 'object') {
+    return NextResponse.json({ error: 'Invalid request body.' }, { status: 400 });
+  }
+
+  const name = String(body.name ?? '').trim().slice(0, 200);
+  const email = String(body.email ?? '').trim().slice(0, 200);
+  const message = String(body.message ?? '').trim().slice(0, 5000);
+
+  if (!name || !email || !message || !EMAIL_RE.test(email)) {
+    return NextResponse.json({ error: 'Please provide a valid name, email and message.' }, { status: 400 });
+  }
+
+  const contactTo = process.env.CONTACT_TO_EMAIL ?? process.env.SMTP_USER;
+  if (!contactTo) {
+    return NextResponse.json({ error: 'Contact form is not configured yet.' }, { status: 500 });
+  }
+
+  try {
+    await sendMail({
+      to: contactTo,
+      subject: `New enquiry from ${name.replace(/[\r\n]/g, ' ')} via CoveredLife contact form`,
+      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      replyTo: email,
+    });
+  } catch {
+    return NextResponse.json({ error: 'Something went wrong sending your message. Please try again later.' }, { status: 502 });
+  }
+
+  const confirmation = renderContactConfirmationEmail({ name });
+  try {
+    await sendMail({
+      to: email,
+      subject: confirmation.subject,
+      text: confirmation.text,
+      html: confirmation.html,
+    });
+  } catch {
+    // The enquiry was already delivered to the site owner; a failed confirmation email shouldn't fail the request.
+  }
+
+  return NextResponse.json({ ok: true });
+}
