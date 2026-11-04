@@ -2,45 +2,28 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ShieldCheck, HeartPulse, Wallet, Briefcase, Building2, Users, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, HeartPulse, Wallet, Briefcase, Building2, House, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { WHATSAPP_NUMBER } from '@/lib/data';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
+import { QUOTE_EDUCATION_LEVELS, type QuoteRequest } from '@/lib/quote';
 
-type Product =
-  | 'Life Insurance'
-  | 'Critical Illness Cover'
-  | 'Income Protection'
-  | 'Key Person Insurance'
-  | 'Business Life Insurance'
-  | 'Shareholder Protection';
-type Gender = 'Man' | 'Woman';
-type Education = 'Matric' | 'No matric' | '3-year diploma' | '3-year degree' | '4-year+ degree';
-
-interface QuoteState {
-  products: Product[];
-  age: number;
-  gender: Gender;
-  smoker: boolean;
-  married: boolean;
-  monthlyIncome: number;
-  education: Education;
-  fullName: string;
-  phone: string;
-  email: string;
-}
+type QuoteState = QuoteRequest;
+type Product = QuoteState['products'][number];
+type Gender = QuoteState['gender'];
+type Education = QuoteState['education'];
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const PRODUCTS: { id: Product; icon: typeof ShieldCheck; text: string }[] = [
-  { id: 'Life Insurance', icon: ShieldCheck, text: 'A monthly payment or lump sum for your loved ones if you pass away.' },
-  { id: 'Critical Illness Cover', icon: HeartPulse, text: 'A lump sum if you’re diagnosed with a serious illness.' },
-  { id: 'Income Protection', icon: Wallet, text: 'Monthly payments if you can’t work due to illness.' },
-  { id: 'Key Person Insurance', icon: Briefcase, text: 'A payout for your business if a key employee dies or is disabled.' },
-  { id: 'Business Life Insurance', icon: Building2, text: 'Cover to protect your business and settle debts if an owner passes away.' },
-  { id: 'Shareholder Protection', icon: Users, text: 'Funds so surviving shareholders can buy out a deceased shareholder’s stake.' }
+  { id: 'Life Cover', icon: ShieldCheck, text: 'A lump sum for your loved ones if you pass away.' },
+  { id: 'Critical Illness', icon: HeartPulse, text: 'A lump sum if you are diagnosed with a covered serious illness.' },
+  { id: 'Disability Cover', icon: Wallet, text: 'Financial protection if illness or injury leaves you disabled.' },
+  { id: 'Bond Protection', icon: House, text: 'Cover designed to help settle your home loan after a covered event.' },
+  { id: 'Key Person', icon: Briefcase, text: 'A payout for your business if a key employee dies or becomes disabled.' },
+  { id: 'Business Assurance', icon: Building2, text: 'Cover that helps protect business ownership, debts, and continuity.' }
 ];
 
-const EDUCATION_OPTIONS: Education[] = ['Matric', 'No matric', '3-year diploma', '3-year degree', '4-year+ degree'];
+const EDUCATION_OPTIONS: readonly Education[] = QUOTE_EDUCATION_LEVELS;
 
 function OptionButton({ label, selected, onClick }: { label: string; selected: boolean; onClick: () => void }) {
   return (
@@ -59,6 +42,8 @@ function OptionButton({ label, selected, onClick }: { label: string; selected: b
 
 export function QuoteForm() {
   const [step, setStep] = useState<1 | 2 | 3 | 'done'>(1);
+  const [status, setStatus] = useState<'idle' | 'sending' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
   const [data, setData] = useState<QuoteState>({
     products: [],
     age: 30,
@@ -76,6 +61,30 @@ export function QuoteForm() {
 
   function update<K extends keyof QuoteState>(key: K, value: QuoteState[K]) {
     setData((prev) => ({ ...prev, [key]: value }));
+  }
+
+  async function submitQuote() {
+    setStatus('sending');
+    setErrorMessage('');
+
+    try {
+      const res = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.error ?? 'Something went wrong. Please try again.');
+      }
+
+      setStatus('idle');
+      setStep('done');
+    } catch (err) {
+      setStatus('error');
+      setErrorMessage(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+    }
   }
 
   function toggleProduct(product: Product) {
@@ -307,15 +316,18 @@ export function QuoteForm() {
                 </button>
                 <button
                   type="button"
-                  disabled={!canSubmit}
-                  onClick={() => setStep('done')}
+                  disabled={!canSubmit || status === 'sending'}
+                  onClick={submitQuote}
                   className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 disabled:opacity-40 disabled:cursor-not-allowed text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all"
                 >
-                  Get My Quote <ArrowRight className="w-5 h-5" />
+                  {status === 'sending' ? 'Sending...' : 'Get My Quote'} <ArrowRight className="w-5 h-5" />
                 </button>
               </div>
               {!canSubmit && (
                 <p className="text-sm text-slate-400">Please fill in your name, phone number, and a valid email to continue.</p>
+              )}
+              {status === 'error' && (
+                <p role="alert" className="text-sm font-semibold text-orange-600">{errorMessage}</p>
               )}
             </motion.div>
           )}

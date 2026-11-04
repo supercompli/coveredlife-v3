@@ -1,10 +1,4 @@
-function escapeHtml(value: string) {
-  return value
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
+import { escapeHtml } from './layout';
 
 export function renderContactConfirmationEmail({ name }: { name: string }) {
   const safeName = escapeHtml(name.split(/\s+/)[0] || name);

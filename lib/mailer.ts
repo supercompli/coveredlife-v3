@@ -17,9 +17,15 @@ function getTransporter() {
   return transporter;
 }
 
+function getFrom() {
+  const address = process.env.SMTP_FROM ?? process.env.SMTP_USER;
+  const name = process.env.SMTP_FROM_NAME;
+  return name && address ? { name, address } : address;
+}
+
 export async function sendMail(options: { to: string; subject: string; text: string; html?: string; replyTo?: string }) {
   return getTransporter().sendMail({
-    from: process.env.SMTP_FROM ?? process.env.SMTP_USER,
+    from: getFrom(),
     ...options,
   });
 }

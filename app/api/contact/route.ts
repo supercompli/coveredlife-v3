@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { sendMail } from '@/lib/mailer';
 import { renderContactConfirmationEmail } from '@/lib/emails/contact-confirmation';
+import { renderContactNotificationEmail } from '@/lib/emails/contact-notification';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -19,16 +20,18 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Please provide a valid name, email and message.' }, { status: 400 });
   }
 
-  const contactTo = process.env.CONTACT_TO_EMAIL ?? process.env.SMTP_USER;
+  const contactTo = process.env.CONTACT_TO_EMAIL ?? process.env.LEAD_NOTIFICATION_EMAIL;
   if (!contactTo) {
     return NextResponse.json({ error: 'Contact form is not configured yet.' }, { status: 500 });
   }
 
+  const notification = renderContactNotificationEmail({ name, email, message });
   try {
     await sendMail({
       to: contactTo,
-      subject: `New enquiry from ${name.replace(/[\r\n]/g, ' ')} via CoveredLife contact form`,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      subject: notification.subject,
+      text: notification.text,
+      html: notification.html,
       replyTo: email,
     });
   } catch {
