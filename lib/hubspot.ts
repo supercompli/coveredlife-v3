@@ -15,7 +15,7 @@ export const LEAD_SOURCE_PROPERTY = 'coveredlife_lead_source';
 
 // Label (or internal value) of the option in the HubSpot "coveredlife_lead_source" dropdown that marks
 // leads from this form. Run `node scripts/test-hubspot.mjs --inspect` to list the options HubSpot has.
-export const QUOTE_LEAD_SOURCE = 'Website Quote Form';
+export const QUOTE_LEAD_SOURCE = 'CoveredLife-web';
 
 // Errors carry only our own message plus HubSpot's status, category and correlation id. HubSpot's
 // response text is deliberately left out because it can echo submitted values (emails, phone numbers).
