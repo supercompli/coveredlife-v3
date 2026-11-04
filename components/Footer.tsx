@@ -47,7 +47,7 @@ export function Footer() {
           </div>
         </div>
         <div className="pt-12 border-t border-indigo-900/50 text-xs opacity-50 space-y-4">
-          <p>Covered Life is a division of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871).</p>
+          <p>Covered Life is a div of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871).</p>
           <p>CoveredLife.co.za is an independent website created to help customers find the most suitable protection insurance policy. We do not provide financial advice ourselves. We work with FSCA Regulated Businesses who search and compare policies from leading South African insurers.</p>
           <p>T&amp;Cs apply. Benefits, eligibility, underwriting, limits, exclusions, and cashback conditions are subject to the applicable policy terms and conditions. EduCare is a Capital Legacy solution.</p>
           <p>© CoveredLife 2026. All rights reserved.</p>

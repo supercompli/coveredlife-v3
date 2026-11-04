@@ -12,7 +12,7 @@ export function PrivacyPolicyContent() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 space-y-10 text-slate-600 leading-relaxed">
           <p>
-            Covered Life is a division of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871) ("CoveredLife", "we", "us"). This policy explains how we collect, use and protect your personal information when you use this website or request a quote, in line with the Protection of Personal Information Act (POPIA).
+            Covered Life is a div of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871) ("CoveredLife", "we", "us"). This policy explains how we collect, use and protect your personal information when you use this website or request a quote, in line with the Protection of Personal Information Act (POPIA).
           </p>
 
           <div className="space-y-3">

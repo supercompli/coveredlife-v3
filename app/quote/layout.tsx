@@ -28,7 +28,7 @@ export default function QuoteLayout({ children }: { children: React.ReactNode })
 
       <footer className="border-t border-slate-100 bg-white py-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-xs text-slate-400 space-y-2">
-          <p>Covered Life is a division of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871).</p>
+          <p>Covered Life is a div of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871).</p>
           <p>T&amp;Cs apply. Benefits, eligibility, underwriting, limits, exclusions, and cashback conditions are subject to the applicable policy terms and conditions. EduCare is a Capital Legacy solution.</p>
           <p>© CoveredLife 2026. All rights reserved.</p>
         </div>
