@@ -6,7 +6,7 @@
 
 CoveredLife is a division of Covered Financial Services (Pty) Ltd, an authorised Financial Services Provider (FSP 54871). CoveredLife.co.za is an independent website, not an insurer, created to help customers find the most suitable protection insurance policy. CoveredLife does not provide financial advice itself; it works with FSCA-regulated advisers who search and compare policies from leading South African insurers. Advisers are paid by insurers, only when they successfully arrange cover — the service is free to the customer.
 
-Since 2006, CoveredLife has helped over 412,682 businesses and individuals compare protection insurance from South Africa's leading insurers.
+Since 2006, CoveredLife has helped 12K+ businesses and individuals compare protection insurance from South Africa's leading insurers.
 
 Contact: WhatsApp +27 83 575 6352, Monday to Friday 9am–7pm.
 
@@ -25,6 +25,7 @@ Contact: WhatsApp +27 83 575 6352, Monday to Friday 9am–7pm.
 - Income Protection (/get-income-protection): Compare Income Protection Insurance quotes and get monthly tax-free payments if illness or injury stops you from working.
 - Individual Life Cover (/individual-life-cover): Individual life cover policies sized to your own circumstances and budget, with a tax-free lump-sum payout.
 - Family Life Cover (/family-life-cover): Joint and family life cover policies that pay a tax-free lump sum to keep your family financially secure.
+- Bond Life Protection (/bond-life-protection): Life cover that settles your home loan if you die, so your family keeps the home. Available as decreasing or level cover, with optional illness and disability cover.
 - Over 50s Life Insurance (/over-50s-life-insurance): Guaranteed acceptance life insurance for South Africans aged 50-85, with no medical exam required.
 - Over 60s Life Insurance (/over-60s-life-insurance): Straightforward, guaranteed-acceptance life insurance designed for South Africans in their 60s, 70s and beyond.
 - Critical Illness Cover (/get-critical-illness-cover): Compare Critical Illness Cover policies. Pays a tax-free lump sum on diagnosis of a serious illness such as cancer, heart attack or stroke. No hidden fees.

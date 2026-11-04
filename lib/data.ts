@@ -24,6 +24,7 @@ export const NAV_ITEMS: NavItem[] = [
         options: [
           { title: "Individual Life Cover", href: "/individual-life-cover" },
           { title: "Family Life Cover", href: "/family-life-cover" },
+          { title: "Bond Life Protection", href: "/bond-life-protection" },
           { title: "Over 50s", href: "/over-50s-life-insurance" },
           { title: "Over 60s", href: "/over-60s-life-insurance" },
           { title: "Pre-existing Conditions", href: "/pre-existing-conditions-life-insurance" },

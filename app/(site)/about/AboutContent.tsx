@@ -36,7 +36,7 @@ export function AboutContent() {
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center space-y-8">
           <p className="text-2xl text-slate-600 leading-relaxed font-light">
-            Since 2006, CoveredLife has helped over <span className="text-indigo-900 font-semibold">412,682 businesses and individuals</span> compare protection insurance from South Africa's leading insurers.
+            Since 2006, CoveredLife has helped <span className="text-indigo-900 font-semibold">12K+ businesses and individuals</span> compare protection insurance from South Africa's leading insurers.
           </p>
           <p className="text-lg text-slate-500 leading-relaxed">
             We're an independent comparison service — not an insurer ourselves. That means we have no reason to push one product over another. Our only job is to connect you with FSCA-authorised advisers who search the whole market and find cover that's genuinely suited to your circumstances.
@@ -48,7 +48,7 @@ export function AboutContent() {
         <div className="max-w-[980px] mx-auto px-4">
           <div className="grid sm:grid-cols-3 gap-8 py-12">
             <div className="text-center space-y-2">
-              <p className="text-5xl font-bold text-indigo-600">412,682+</p>
+              <p className="text-5xl font-bold text-indigo-600">12K+</p>
               <p className="text-xs font-bold text-slate-400 uppercase">People &amp; Businesses Helped</p>
             </div>
             <div className="text-center space-y-2">
